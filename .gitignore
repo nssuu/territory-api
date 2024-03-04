@@ -1,0 +1,22 @@
+# editor
+/.vscode
+.idea
+.tscache
+.DS_Store
+
+
+# Ignore all local .env files
+.env
+.env.local
+.env.*.local
+
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+
+# static files
+readmestatic
