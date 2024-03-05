@@ -1,7 +1,7 @@
 # Hogwarts Houses API
 
 
-![hogwarts houses](https://i.etsystatic.com/28221181/r/il/73a0f6/3147517872/il_fullxfull.3147517872_oti6.jpg)
+![hogwarts houses](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3Dg7XdkqX_QbTEDZI4Bhlw.jpeg)
 
 This is a simple RESTful API built with Node.js and TypeScript that provides information about different 
 houses of Hogwarts.
