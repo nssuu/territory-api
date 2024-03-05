@@ -18,8 +18,15 @@ app.use(
 
 app.use(express.json());
 
-app.get("/houses", (req: Request, res: Response) => {
+async function delay(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+app.get("/houses", async (req: Request, res: Response) => {
   console.log(`${req.method} ${req.url}`);
+
+  // Simulate a delay to show the loading spinner.
+  // await delay(1000);
 
   const { name } = req.query;
 
