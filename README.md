@@ -1,11 +1,9 @@
 # Hogwarts Houses API
 
-
 ![hogwarts houses](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3Dg7XdkqX_QbTEDZI4Bhlw.jpeg)
 
-This is a simple RESTful API built with Node.js and TypeScript that provides information about different 
+This is a simple RESTful API built with Node.js and TypeScript that provides information about different
 houses of Hogwarts.
-
 
 ## Installation
 
@@ -15,13 +13,11 @@ houses of Hogwarts.
 git clone https://github.com/nssuu/territory-api.git
 ```
 
-
 2. Navigate to the project directory:
 
 ```sh
-cd  territory-api
+cd territory-api
 ```
-
 
 3. Install dependencies:
 
@@ -29,17 +25,14 @@ cd  territory-api
 npm install
 ```
 
-
 4. Compile the TypeScript code to JavaScript:
 
 ```sh
 npx tsc
 ```
 
-
 4. Run it! Wingardium Leviosa..
 
 ```sh
 node dist/index.js
 ```
-

@@ -1,12 +1,26 @@
 import express, { Request, Response } from "express";
 import houses from "./data/houseData";
 
+const cors = require("cors");
 const app = express();
 const PORT = 4000;
+
+app.use(
+  cors({
+    origin: (
+      origin: string,
+      callback: (err: Error | null, origins: string[]) => void,
+    ) => {
+      callback(null, [origin]);
+    },
+  }),
+);
 
 app.use(express.json());
 
 app.get("/houses", (req: Request, res: Response) => {
+  console.log(`${req.method} ${req.url}`);
+
   const { name } = req.query;
 
   if (name) {
