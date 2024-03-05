@@ -37,7 +37,7 @@ npx tsc
 ```
 
 
-4. Run it!
+4. Run it! Wingardium Leviosa..
 
 ```sh
 node dist/index.js
